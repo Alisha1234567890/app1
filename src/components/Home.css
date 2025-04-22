@@ -1,0 +1,57 @@
+/* Home.css */
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap'); /* Import the Google Font */
+
+html, body {
+    height: 100%; /* Ensure the body takes full height */
+    margin: 0; /* Remove default margin */
+}
+
+body {
+    display: flex; /* Use flexbox for the body */
+    flex-direction: column; /* Stack children vertically */
+}
+
+.home-container {
+    display: flex; /* Use flexbox for horizontal layout */
+    flex: 1; /* Allow the container to grow and take available space */
+    height: calc(100vh - 120px); /* Adjust height to account for navbar height and footer */
+}
+
+.section {
+    padding: 10px; /* Reduce padding for smaller sections */
+    box-sizing: border-box; /* Include padding in width calculations */
+    height: 100%; /* Allow sections to take full height of the container */
+    overflow: hidden; /* Hide overflow to prevent scrolling */
+}
+
+.left-section {
+    background-color: #f0f0f0; /* Light background for visibility */
+    flex: 0 0 25%; /* Set width to 25% */
+}
+
+.middle-section {
+    background-color: #e0e0e0; /* Slightly darker background */
+    flex: 0 0 50%; /* Set width to 50% */
+}
+
+.right-section {
+    background-color: #d0d0d0; /* Even darker background */
+    flex: 0 0 25%; /* Set width to 25% */
+}
+
+.footer {
+    text-align: center;
+    padding: 30px; /* Increase padding for a larger footer */
+    background-color: #333; /* Dark background for footer */
+    color: white; /* White text for footer */
+    font-size: 1.5em; /* Slightly larger font size for footer text */
+    height: 120px; /* Increase height for footer */
+    width: 100%; /* Ensure footer takes full width */
+    margin-top: auto; /* Push footer to the bottom */
+}
+
+/* Optional: Apply the Berkshire Swash font to specific elements */
+h1, h2, h3 {
+    font-family: 'Berkshire Swash', cursive; /* Apply the font to headings */
+    color: #2c3e50; /* Optional: Set a color for the headings */
+}
