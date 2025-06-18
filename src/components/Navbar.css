@@ -1,13 +1,22 @@
 /* Navbar Styles */
+/* Navbar Styles */
+/* Navbar Styles */
+/* Navbar Styles */
+/* Navbar Styles */
 .navbar {
     display: flex;
     justify-content: center; /* Center the navMenu since logo is removed */
     align-items: center;
-    background-color: #333;
-    padding: 20px 20px;
+    background: linear-gradient(90deg,rgb(95, 189, 189) , rgb(66, 156, 104), rgb(58, 179, 78));
+    padding: 30px 20px; /* Keeping the increased padding */
+    width: 100%; /* Increase the width beyond the screen */
+    max-width: none; /* Ensures no restrictions on width */
     position: relative;
     z-index: 1000;
+    height:131px;
+
 }
+
 
 /* Removed the logo section */
 
@@ -77,4 +86,32 @@
 /* Add spacing below navbar for the page content */
 .content {
     margin-top: 80px;
+}
+.search-form {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+  margin-right: 10px;
+}
+
+.search-form input {
+  padding: 4px 8px;
+  font-size: 13px;
+  width: 120px;
+  border: 1px solid #ccc;
+  border-radius: 4px 0 0 4px;
+}
+
+.search-form button {
+  padding: 4px 8px;
+  font-size: 13px;
+  background-color: #555;
+  color: white;
+  border: none;
+  border-radius: 0 4px 4px 0;
+  cursor: pointer;
+}
+
+.search-form button:hover {
+  background-color: #777;
 }
