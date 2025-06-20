@@ -1,0 +1,24 @@
+.announcements-container {
+  max-width: 700px;
+  margin: 30px auto;
+  padding: 25px;
+  background-color: #fdfdfd;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.announcement-item {
+  border-bottom: 1px solid #ccc;
+  padding: 15px 0;
+}
+
+.announcement-item h3 {
+  margin: 0;
+  font-size: 1.2rem;
+  color: #333;
+}
+
+.announcement-item p {
+  margin: 5px 0 0;
+  color: #555;
+}

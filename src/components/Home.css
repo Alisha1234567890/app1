@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap');
+
+html, body {
+    height: 100%;
+    margin: 0;
+    background-color: white;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+}
+
+.home-container {
+    display: flex;
+    flex: 1;
+    height: calc(100vh - 120px);
+    background-color: white;
+}
+
+.section {
+    padding: 10px;
+    box-sizing: border-box;
+    height: 100%;
+    overflow: hidden;
+    background-color: white;
+}
+
+.image-wrapper img {
+    width: 100%;
+    max-width: 800px; /* Keeps your image size unchanged */
+   
+    border-radius: 20px; /* Smooth rounded edges */
+}
+
+/* 🔹 Border for About Us section */
+/* Border for About Us section */
+
+.about-us {
+
+    text-align: justify; /* Ensures full-width alignment */
+    
+    border: 2px solid black;
+    padding: 13px;
+    margin: 5px;
+    border-radius: 8px;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
+    text-align: justify;
+    height: 40%;
+    width:30% /* Ensures border only wraps content */
+}
+
+/* Border for Contact Details section */
+.contact-details {
+    border: 2px solid black;
+    padding: 13px;
+    margin: 5px;
+    border-radius: 8px;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
+    height: 80%; /* Ensures border only wraps content */
+}
+
+.left-section {
+    background-color:white; /* Light background for visibility */
+    flex: 0 0 25%; /* Set width to 25% */
+}
+
+.middle-section {
+    background-color:white; /* Slightly darker background */
+    flex: 0 0 50%; /* Set width to 50% */
+}
+
+.right-section {
+background-color:white; /* Even darker background */
+    flex: 0 0 25%; /* Set width to 25% */
+}
+
+.footer {
+    text-align: center;
+    padding: 30px; /* Increase padding for a larger footer */
+    background-color: #14333f; /* Dark background for footer */
+    color: white; /* White text for footer */
+    font-size: 1.5em; /* Slightly larger font size for footer text */
+    height: 185px; /* Increase height for footer */
+    width: 100%; /* Ensure footer takes full width */
+    margin-top: auto; /* Push footer to the bottom */
+}
+
+/* Optional: Apply the Berkshire Swash font to specific elements */
+h1, h2, h3 {
+    font-family: 'Berkshire Swash', cursive; /* Apply the font to headings */
+    color: #2c3e50; /* Optional: Set a color for the headings */
+}
+   
+.gallery-section {
+  padding: 40px 20px;
+  background: #f4f4f4;
+  text-align: center;
+}
+
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+.gallery-grid img {
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+
+
+
+
+
+
+
